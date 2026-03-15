@@ -1,9 +1,8 @@
-# Faça um programa para ler dois números inteiros e imprimir a multiplicação desses
-dois números
-
+# Faça um programa para ler dois números inteiros e imprimir a multiplicação desses dois números
 
 .text
-main:	addi $2, $0, 5 # lê um int e grava em $2
+main:	
+	addi $2, $0, 5 # lê um int e grava em $2
 	syscall
 	
 	add $8, $0, $2 # copia o valor que está em $2 para $8

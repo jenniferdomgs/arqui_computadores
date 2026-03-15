@@ -1,8 +1,9 @@
 # Faça um programa para ler duas notas de um aluno do IFRN em um curso semestral.
-Esse programa deverá apresentar a média desse aluno, após as duas provas.
+# Esse programa deverá apresentar a média desse aluno, após as duas provas.
 
 .text
-main:	addi $2, $0, 5 # lê um int e grava em $2
+main:	
+	addi $2, $0, 5 # lê um int e grava em $2
 	syscall
 	
 	add $6, $0, $2 # copia o valor que está em $2 para $6
