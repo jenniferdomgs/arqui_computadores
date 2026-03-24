@@ -16,7 +16,7 @@ main:
 	
 	beq $7, $8, maior
 difer:
-	add $4, $0, $5 # se $5 for maior ou igual a $6
+	add $4, $0, $5
 	j imp
 maior:
 	add $4, $0, $6

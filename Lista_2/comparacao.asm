@@ -8,6 +8,7 @@
 
 # slt: $x, $y, $z : se $y < $z -> $x recebe 1, se não, $x recebe 0.
 
+# imprimindo se 2 números são iguais ou diferentes
 .text
 main:
 	addi $2, $0, 5
