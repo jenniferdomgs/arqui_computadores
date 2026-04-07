@@ -5,7 +5,7 @@ main:
     addi $2, $0, 5     
     syscall
     
-    add $5, $0, $2 # dado auxiliar 
+    add $5, $0, $2
     
     # deslocando p/ esquerda para pegar cada bit -> depois faz and com 1 == 1 se for impar e 0 se for par -> imprime bit por bit
     
